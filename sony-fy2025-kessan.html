@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ソニーグループ 2025年3月期 通期決算まとめ。売上収益12.9兆円、営業利益1.4兆円で過去最高益達成。ゲーム・音楽・センサーの三本柱が牽引。個人投資家向けにわかりやすく解説します。">
+  <title>ソニーグループ 2025年3月期 通期決算まとめ — 過去最高益達成、三本柱が牽引 | The IR Brief</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink:        #1e2530;
+      --ink-soft:   #4a5568;
+      --ink-muted:  #8a97a8;
+      --bg:         #f2f3f5;
+      --bg-card:    #ffffff;
+      --accent:     #e85d04;
+      --accent-lt:  #fff1e6;
+      --up:         #2d9e6b;
+      --up-lt:      #e6f4ea;
+      --down:       #e53e3e;
+      --down-lt:    #fef2f2;
+      --border:     #e2e6eb;
+      --shadow:     0 2px 12px rgba(0,0,0,0.07);
+      --radius:     14px;
+      --radius-sm:  8px;
+      --sans: 'Noto Sans JP', 'Meiryo', sans-serif;
+      --mono: 'IBM Plex Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--ink); font-size: 15px; line-height: 1.85; }
+    a { color: inherit; text-decoration: none; }
+
+    /* HEADER */
+    header { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 8px rgba(0,0,0,0.06); }
+    .header-inner { max-width: 1000px; margin: 0 auto; padding: 0 24px; height: 62px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: var(--sans); font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 4px; }
+    .logo-dot { color: var(--accent); font-size: 24px; line-height: 0; }
+    nav { display: flex; gap: 20px; align-items: center; }
+    nav a { font-size: 13px; font-weight: 500; color: var(--ink-soft); }
+    nav a:hover { color: var(--accent); }
+    .nav-back { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink-soft); }
+    .nav-back:hover { color: var(--accent); }
+
+    /* ARTICLE WRAPPER */
+    .article-wrap { max-width: 1000px; margin: 0 auto; padding: 40px 24px 80px; display: grid; grid-template-columns: 1fr 280px; gap: 40px; align-items: start; }
+
+    /* MAIN */
+    .article-main {}
+
+    /* EYEBROW */
+    .article-eyebrow { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
+    .tag { font-size: 10px; font-weight: 700; letter-spacing: 0.05em; padding: 3px 10px; border-radius: 50px; text-transform: uppercase; }
+    .tag-kessan { background: #fff1e6; color: var(--accent); }
+    .tag-it     { background: #f0e6ff; color: #6d28d9; }
+
+    /* TITLE */
+    .article-title { font-size: clamp(20px, 3vw, 28px); font-weight: 900; line-height: 1.4; margin-bottom: 14px; letter-spacing: -0.01em; }
+    .article-meta { display: flex; gap: 16px; font-family: var(--mono); font-size: 11px; color: var(--ink-muted); margin-bottom: 32px; flex-wrap: wrap; }
+
+    /* HIGHLIGHT BOX */
+    .highlight-box { background: var(--ink); color: #fff; border-radius: var(--radius); padding: 28px; margin-bottom: 32px; }
+    .highlight-title { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+    .highlight-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .highlight-item { display: flex; flex-direction: column; gap: 4px; }
+    .highlight-label { font-size: 11px; color: rgba(255,255,255,0.5); }
+    .highlight-val { font-family: var(--mono); font-size: 20px; font-weight: 500; color: #fff; }
+    .highlight-chg { font-family: var(--mono); font-size: 11px; }
+    .highlight-chg.up   { color: #4ade80; }
+    .highlight-chg.down { color: #f87171; }
+
+    /* BODY */
+    .article-body { font-size: 15px; line-height: 1.9; color: var(--ink); }
+    .article-body h2 { font-size: 18px; font-weight: 700; margin: 36px 0 14px; padding-left: 14px; border-left: 4px solid var(--accent); }
+    .article-body h3 { font-size: 15px; font-weight: 700; margin: 24px 0 10px; }
+    .article-body p  { margin-bottom: 16px; }
+
+    /* SEGMENT TABLE */
+    .seg-table { width: 100%; border-collapse: collapse; margin: 20px 0 28px; font-size: 13px; }
+    .seg-table th { background: var(--ink); color: #fff; padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 700; letter-spacing: 0.05em; }
+    .seg-table th:not(:first-child) { text-align: right; }
+    .seg-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    .seg-table td:not(:first-child) { text-align: right; font-family: var(--mono); font-size: 12px; }
+    .seg-table tr:last-child td { border-bottom: none; }
+    .seg-table tr:hover td { background: #f8f9fa; }
+    .chg-up   { color: var(--up); font-weight: 700; }
+    .chg-down { color: var(--down); font-weight: 700; }
+
+    /* POINT BOX */
+    .point-box { border-radius: var(--radius-sm); padding: 20px 22px; margin: 24px 0; }
+    .point-box.green { background: var(--up-lt); border-left: 4px solid var(--up); }
+    .point-box.red   { background: var(--down-lt); border-left: 4px solid var(--down); }
+    .point-box.orange { background: var(--accent-lt); border-left: 4px solid var(--accent); }
+    .point-box-title { font-size: 12px; font-weight: 700; margin-bottom: 6px; }
+    .point-box.green .point-box-title  { color: var(--up); }
+    .point-box.red   .point-box-title  { color: var(--down); }
+    .point-box.orange .point-box-title { color: var(--accent); }
+    .point-box p { font-size: 13px; margin: 0; line-height: 1.75; }
+
+    /* DISCLAIMER */
+    .disclaimer { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 16px 18px; margin: 32px 0; font-size: 12px; color: var(--ink-muted); line-height: 1.75; }
+
+    /* SIDEBAR */
+    .article-sidebar { position: sticky; top: 80px; display: flex; flex-direction: column; gap: 20px; }
+    .sidebar-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+    .sidebar-title { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+    .toc-list { display: flex; flex-direction: column; gap: 8px; }
+    .toc-item { font-size: 12px; color: var(--ink-soft); display: flex; gap: 8px; align-items: flex-start; line-height: 1.5; }
+    .toc-item::before { content: '—'; color: var(--accent); flex-shrink: 0; font-family: var(--mono); }
+    .toc-item:hover { color: var(--accent); }
+
+    .stock-info { display: flex; flex-direction: column; gap: 10px; }
+    .stock-row { display: flex; justify-content: space-between; align-items: center; font-size: 12px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+    .stock-row:last-child { border-bottom: none; }
+    .stock-label { color: var(--ink-soft); }
+    .stock-val { font-family: var(--mono); font-size: 12px; font-weight: 500; }
+
+    /* AFFILIATE */
+    .aff-card { background: var(--accent-lt); border: 1.5px solid #fcd9b6; border-radius: var(--radius); padding: 20px; }
+    .aff-label { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; color: var(--accent); text-transform: uppercase; margin-bottom: 8px; }
+    .aff-text { font-size: 12px; color: var(--ink-soft); margin-bottom: 14px; line-height: 1.7; }
+    .aff-btn { display: block; background: var(--accent); color: #fff; text-align: center; padding: 11px; border-radius: 50px; font-size: 12px; font-weight: 700; transition: background .15s; box-shadow: 0 3px 10px rgba(232,93,4,0.25); }
+    .aff-btn:hover { background: #c94d00; }
+    .aff-disclaimer { font-size: 10px; color: var(--ink-muted); margin-top: 8px; }
+
+    /* RELATED */
+    .related-list { display: flex; flex-direction: column; gap: 12px; }
+    .related-item { font-size: 13px; color: var(--ink-soft); display: flex; gap: 8px; line-height: 1.5; }
+    .related-item::before { content: '›'; color: var(--accent); font-weight: 700; flex-shrink: 0; }
+    .related-item a:hover { color: var(--accent); }
+
+    /* FOOTER */
+    footer { background: var(--ink); color: #8a97a8; padding: 32px 24px; text-align: center; }
+    .footer-logo { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .footer-logo-dot { color: var(--accent); }
+    .footer-copy { font-size: 11px; font-family: var(--mono); }
+    .footer-disc { font-size: 11px; color: #4a5568; margin-top: 8px; }
+
+    @media (max-width: 768px) {
+      .article-wrap { grid-template-columns: 1fr; }
+      .article-sidebar { position: static; }
+      .highlight-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+      .highlight-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">The IR<span class="logo-dot">·</span>Brief</a>
+    <nav>
+      <a href="/index.html" class="nav-back">← 記事一覧へ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="article-wrap">
+
+  <!-- MAIN ARTICLE -->
+  <main class="article-main">
+
+    <div class="article-eyebrow">
+      <span class="tag tag-kessan">決算レポート</span>
+      <span class="tag tag-it">エレクトロニクス</span>
+    </div>
+
+    <h1 class="article-title">ソニーグループ 2025年3月期 通期決算まとめ —<br>過去最高益達成、ゲーム・音楽・センサーの三本柱が牽引</h1>
+
+    <div class="article-meta">
+      <span>📅 2025年05月15日</span>
+      <span>🕐 読了 約5分</span>
+      <span>🏢 ソニーグループ (6758)</span>
+    </div>
+
+    <!-- HIGHLIGHT -->
+    <div class="highlight-box">
+      <p class="highlight-title">📊 2025年3月期 通期 決算ハイライト</p>
+      <div class="highlight-grid">
+        <div class="highlight-item">
+          <span class="highlight-label">売上収益</span>
+          <span class="highlight-val">12.9兆円</span>
+          <span class="highlight-chg down">▼ −0.5% YoY</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-label">営業利益</span>
+          <span class="highlight-val">1.41兆円</span>
+          <span class="highlight-chg up">▲ +16.4% YoY</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-label">純利益</span>
+          <span class="highlight-val">1.14兆円</span>
+          <span class="highlight-chg up">▲ +17.6% YoY</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-body">
+
+      <h2>全体サマリー：売上は微減も、利益は過去最高</h2>
+      <p>ソニーグループが2025年5月14日に発表した2025年3月期（2024年度）通期決算は、売上収益こそ前年比0.5%減の12兆9,570億円とわずかに後退したものの、営業利益は16.4%増の1兆4,071億円、純利益は17.6%増の1兆1,416億円と、いずれも過去最高水準を更新しました。</p>
+      <p>特筆すべきは、金融子会社（ソニーフィナンシャルグループ）を除いた継続事業ベースでも、売上・営業利益・純利益がそろって過去最高となった点。エンターテインメントへの戦略シフトが着実に結果を出しています。</p>
+
+      <div class="point-box green">
+        <p class="point-box-title">✅ ポジティブポイント</p>
+        <p>金融事業を除いた本業の稼ぐ力が明確に高まっています。ゲーム・音楽・センサーの三本柱が揃って好調で、事業ポートフォリオの質が向上しています。</p>
+      </div>
+
+      <h2>セグメント別の業績</h2>
+      <p>各事業の明暗が分かれた決算でした。</p>
+
+      <table class="seg-table">
+        <thead>
+          <tr>
+            <th>セグメント</th>
+            <th>売上高</th>
+            <th>前年比</th>
+            <th>営業利益</th>
+            <th>前年比</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ゲーム＆ネットワーク</td>
+            <td>4兆3,200億円</td>
+            <td class="chg-up">+1.2%</td>
+            <td>3,200億円</td>
+            <td class="chg-up">+10.3%</td>
+          </tr>
+          <tr>
+            <td>音楽</td>
+            <td>—</td>
+            <td>—</td>
+            <td>3,400億円</td>
+            <td class="chg-up">+13%</td>
+          </tr>
+          <tr>
+            <td>イメージング＆センシング</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="chg-up">大幅増益</td>
+          </tr>
+          <tr>
+            <td>エンタテインメント・T&S</td>
+            <td>—</td>
+            <td class="chg-down">−7.5%</td>
+            <td>—</td>
+            <td class="chg-down">−16.9%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>🎮 ゲーム＆ネットワークサービス：堅調</h3>
+      <p>PS5のハードウェア販売台数は減少傾向にあるものの、ゲームソフトのアドオン・コンテンツやPlayStation Plus（PSプラス）の会員数増加・上位プラン移行が収益を押し上げました。「HELLDIVERS 2」などのヒット作も貢献しています。</p>
+
+      <h3>🎵 音楽：安定した成長エンジン</h3>
+      <p>管理楽曲数は624万曲と過去10年で7割増加。楽曲が映画・テレビ・配信サービスで使われるたびに収益が積み上がる「ストック型ビジネス」が機能し、営業利益は13%増の3,400億円に。音楽事業の営業利益率は21.1%と、全セグメントでトップ水準です。</p>
+
+      <h3>📷 イメージング＆センシング：過去最高</h3>
+      <p>スマートフォン向けイメージセンサーの大型化・高単価化トレンドが継続。Apple・中国系メーカー向けの出荷が堅調で、売上・営業利益ともにセグメント過去最高を記録しました。営業利益率は16.6%と、ゲーム事業（9.9%）を上回る水準です。</p>
+
+      <h3>📺 エンタテインメント・テクノロジー＆サービス（旧エレキ）：苦戦</h3>
+      <p>テレビ・カメラなど従来型エレクトロニクス事業は売上−7.5%、営業利益−16.9%と減益。スマートフォンへの消費シフトや市場競争激化の影響を受けています。ソニーの事業ポートフォリオ変革が課題として残っています。</p>
+
+      <div class="point-box red">
+        <p class="point-box-title">⚠️ 注意ポイント</p>
+        <p>旧エレキ部門の地盤沈下が続いています。ソニー・ホンダモビリティ（Afeela）の生産中止も発表されており、新規事業の踊り場を反映している可能性があります。</p>
+      </div>
+
+      <h2>来期（2026年3月期）の見通し</h2>
+      <p>2026年3月期の会社予想は、売上収益11兆7,000億円（前期比−9.7%）、営業利益1兆2,800億円（同−9%）と、一見すると大幅な減益予想に見えます。ただし、これは金融子会社（ソニーフィナンシャルグループ）を2025年9月に分離・上場させる影響が大きく、本業の実力を正確に反映しているわけではありません。</p>
+      <p>継続事業ベースでは、2027年3月期に営業利益1兆6,000億円・純利益1兆1,600億円という2期ぶりの過去最高更新を目指しています。さらに5,000億円の自社株買い枠を新設しており、株主還元への意欲は明確です。</p>
+
+      <div class="point-box orange">
+        <p class="point-box-title">💡 投資家目線のポイント</p>
+        <p>来期の「減益予想」は金融事業の分離による会計上の影響が主因です。本業の稼ぐ力は向上しており、数字だけで判断しないことが重要です。また、米国関税の影響は在庫積み上げなどで1,000億円に抑制できる見通しです。</p>
+      </div>
+
+      <h2>まとめ：エンタメ企業への転換が加速</h2>
+      <p>今回の決算で見えたのは、「ゲーム・音楽・センサー」という三本柱に絞ったソニーの姿です。CEOの十時氏が語る「エンターテインメントへのシフト」は数字にも表れており、コンテンツ・IPを軸にした成長モデルが着実に機能しています。</p>
+      <p>一方で旧エレキ部門の苦戦やモビリティ事業の踊り場は課題として残ります。金融事業の分離後、ソニーが「純コンテンツ・センサー企業」として次のステージに進めるか、今後の動向に注目です。</p>
+
+      <div class="disclaimer">
+        ※ 本記事はIR資料・報道をもとに作成した情報提供を目的とするものです。特定の銘柄への投資を推奨するものではありません。投資はご自身の判断と責任のもとで行ってください。
+      </div>
+
+    </div>
+  </main>
+
+  <!-- SIDEBAR -->
+  <aside class="article-sidebar">
+
+    <!-- 目次 -->
+    <div class="sidebar-card">
+      <p class="sidebar-title">目次</p>
+      <div class="toc-list">
+        <span class="toc-item">全体サマリー</span>
+        <span class="toc-item">セグメント別の業績</span>
+        <span class="toc-item">来期の見通し</span>
+        <span class="toc-item">投資家目線のポイント</span>
+        <span class="toc-item">まとめ</span>
+      </div>
+    </div>
+
+    <!-- 株式情報 -->
+    <div class="sidebar-card">
+      <p class="sidebar-title">銘柄情報</p>
+      <div class="stock-info">
+        <div class="stock-row"><span class="stock-label">証券コード</span><span class="stock-val">6758.T</span></div>
+        <div class="stock-row"><span class="stock-label">決算期</span><span class="stock-val">2025年3月期</span></div>
+        <div class="stock-row"><span class="stock-label">発表日</span><span class="stock-val">2025-05-14</span></div>
+        <div class="stock-row"><span class="stock-label">営業利益</span><span class="stock-val" style="color:var(--up)">▲+16.4%</span></div>
+        <div class="stock-row"><span class="stock-label">純利益</span><span class="stock-val" style="color:var(--up)">▲+17.6%</span></div>
+        <div class="stock-row"><span class="stock-label">配当予想</span><span class="stock-val">25円/株</span></div>
+      </div>
+    </div>
+
+    <!-- アフィリエイト -->
+    <div class="aff-card">
+      <p class="aff-label">PR · 証券口座</p>
+      <p class="aff-text">ソニー株に興味を持ったら、まずは口座開設から。手数料無料で始められます。</p>
+      <a href="#" class="aff-btn">SBI証券で口座開設 →</a>
+      <p class="aff-disclaimer">※ アフィリエイト広告を含みます</p>
+    </div>
+
+    <!-- 関連記事 -->
+    <div class="sidebar-card">
+      <p class="sidebar-title">関連記事</p>
+      <div class="related-list">
+        <span class="related-item"><a href="#">日立製作所「2027中期経営計画」全解説</a></span>
+        <span class="related-item"><a href="#">東京エレクトロン Q1決算まとめ</a></span>
+        <span class="related-item"><a href="#">IT大手6社 営業利益率ランキング</a></span>
+      </div>
+    </div>
+
+  </aside>
+</div>
+
+<footer>
+  <p class="footer-logo">The IR<span class="footer-logo-dot">·</span>Brief</p>
+  <p class="footer-copy">© 2025 The IR Brief. All rights reserved.</p>
+  <p class="footer-disc">当サイトの情報は投資の参考を目的としており、特定銘柄への投資を推奨するものではありません。</p>
+</footer>
+
+</body>
+</html>
